@@ -138,10 +138,20 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
-.dice {
+
+.dice-1 {
+    top: 100px;
     position: absolute;
     left: 50%;
-    top: 178px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.dice-2 {
+    top: 220px;
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
@@ -149,3 +159,26 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.win-form {
+    position: absolute;
+    left: 50%;
+    top: 515px;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+}
+
+.win-form label{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.win-form input {
+    width: 50px;
+    height: 25px;
+    margin-left: 30%;
+    margin-top: 8px;
+    text-align: center;
+}
